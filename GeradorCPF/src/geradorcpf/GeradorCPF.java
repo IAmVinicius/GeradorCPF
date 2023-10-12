@@ -61,6 +61,8 @@ public class GeradorCPF {
          // Imprimir números aleatórios 
         //for (int i = 0; i < 11; i++){
           //  System.out.print(cpf[i]);
+          
+          //comentario teste
         }
     private static void imprimirCPF(int[] cpf) {
         System.out.printf("CPF gerado: %03d.%03d.%03d-%02d",
