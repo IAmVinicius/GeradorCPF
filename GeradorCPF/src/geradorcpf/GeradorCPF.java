@@ -8,6 +8,8 @@ public class GeradorCPF {
     public static void main(String[] args) {
         // Cria um objeto da classe Random
         Random random = new Random();
+        
+        System.out.println("");
                 
         int[] cpf = new int[11]; // array para armazenar os dígitos do CPF
         
