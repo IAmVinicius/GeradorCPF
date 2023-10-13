@@ -65,11 +65,11 @@ public class GeradorCPF {
           //comentario teste
         }
     private static void imprimirCPF(int[] cpf) {
-        System.out.printf("CPF gerado: %03d.%03d.%03d-%02d",
+        System.out.printf("CPF gerado: %03d.%03d.%03d-%02d \n",
                 cpf[0] * 100 + cpf[1] * 10 + cpf[2],
                 cpf[3] * 100 + cpf[4] * 10 + cpf[5],
                 cpf[6] * 100 + cpf[7] * 10 + cpf[8],
                 cpf[9] * 10 + cpf[10]);
     }
-    }
+}
 
