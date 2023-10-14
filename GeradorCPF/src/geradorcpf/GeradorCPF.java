@@ -1,5 +1,10 @@
 
 package geradorcpf;
+/**
+ * @author Vinícius Desenv
+ * Gerador de CPF validos
+ * Versão 1.0
+ */
 
 import java.util.Random;
 
@@ -57,6 +62,5 @@ public class GeradorCPF {
                 cpf[6] * 100 + cpf[7] * 10 + cpf[8],
                 cpf[9] * 10 + cpf[10]);
     }
-   
 }
 
